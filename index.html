@@ -15,6 +15,43 @@
 		<meta name="description" content="The Quarantine Classic is a 100% for charity Debate tournament occuring during the summer. We aim to make debate more accessible to all. ">
 	</head>
 	<body class="is-preload landing">
+		<script src="https://formspree.io/js/formbutton-v1.min.js" defer></script>
+<script>
+  /* paste this in verbatim */
+  window.formbutton=window.formbutton||function(){(formbutton.q=formbutton.q||[]).push(arguments);};
+
+  /* customize formbutton here*/     
+  formbutton("create", {
+    action: "https://formspree.io/f/mayajker",
+    title: "How can we help?",
+    fields: [
+      { 
+        type: "email", 
+        label: "Email:", 
+        name: "email",
+        required: true,
+        placeholder: "your@email.com"
+      },
+      {
+        type: "textarea",
+        label: "Message:",
+        name: "message",
+        placeholder: "What would you like assistance in?",
+      },
+      { type: "submit" }      
+    ],
+    styles: {
+      title: {
+        backgroundColor: "#2D2935"
+      },
+      button: {
+        backgroundColor: "#E44C65"
+      }
+    },
+    initiallyVisible: true
+  });
+</script>
+
 		<div id="page-wrapper">
 
 			<!-- Header -->
